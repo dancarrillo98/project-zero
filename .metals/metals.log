@@ -1,0 +1,1126 @@
+[0m2021.10.15 14:33:48 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.15 14:33:50 INFO  time: initialize in 1.38s[0m
+[0m2021.10.15 14:33:50 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.15 14:33:56 INFO  running 'C:\Users\danca\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\danca\AppData\Local\Temp\metals2142922657123819639\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.15 14:34:04 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\build.sbt[0m
+[0m2021.10.15 14:34:08 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.15 14:34:10 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2021.10.15 14:34:11 INFO  time: code lens generation in 1.8s[0m
+[0m2021.10.15 14:34:11 INFO  time: code lens generation in 2.35s[0m
+[0m2021.10.15 14:34:11 INFO  time: code lens generation in 6.39s[0m
+[0m2021.10.15 14:34:12 INFO  [info] loading settings for project proj0-build-build from metals.sbt ...[0m
+[0m2021.10.15 14:34:12 INFO  [info] loading project definition from C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\project\project[0m
+[0m2021.10.15 14:34:16 INFO  [info] loading settings for project proj0-build from metals.sbt ...[0m
+[0m2021.10.15 14:34:16 INFO  [info] loading project definition from C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\project[0m
+[0m2021.10.15 14:34:18 INFO  [success] Generated .bloop\proj0-build.json[0m
+[0m2021.10.15 14:34:18 INFO  [success] Total time: 2 s, completed Oct 15, 2021, 2:34:18 PM[0m
+[0m2021.10.15 14:34:20 INFO  [info] loading settings for project proj0 from build.sbt ...[0m
+[0m2021.10.15 14:34:20 INFO  [info] set current project to hello-world (in build file:/C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/)[0m
+[0m2021.10.15 14:34:20 INFO  [success] Generated .bloop\proj0.json[0m
+[0m2021.10.15 14:34:20 INFO  [success] Generated .bloop\proj0-test.json[0m
+[0m2021.10.15 14:34:20 INFO  [success] Total time: 0 s, completed Oct 15, 2021, 2:34:20 PM[0m
+[0m2021.10.15 14:34:21 INFO  time: ran 'sbt bloopInstall' in 24s[0m
+[0m2021.10.15 14:34:21 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23354'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0.json'
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'proj0'
+[0m[32m[D][0m Missing analysis file for project 'proj0-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23354...
+The server is listening for incoming connections at tcp://127.0.0.1:23354...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 14:34:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 14:34:27 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40018'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40018...
+The server is listening for incoming connections at tcp://127.0.0.1:40018...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 14:34:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 14:34:28 INFO  time: Connected to build server in 7.29s[0m
+[0m2021.10.15 14:34:28 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.15 14:34:28 INFO  time: Imported build in 0.11s[0m
+[0m2021.10.15 14:34:33 INFO  time: indexed workspace in 4.8s[0m
+[0m2021.10.15 14:34:34 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.15 14:35:03 INFO  time: code lens generation in 3.82s[0m
+[0m2021.10.15 14:35:03 INFO  time: code lens generation in 29s[0m
+[0m2021.10.15 14:35:03 INFO  time: code lens generation in 1.43s[0m
+[0m2021.10.15 14:37:19 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 14:37:22 INFO  time: compiled proj0 in 2.53s[0m
+[0m2021.10.15 14:37:46 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 14:37:46 INFO  time: compiled proj0 in 0.14s[0m
+Oct 15, 2021 2:37:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+[0m2021.10.15 14:38:01 INFO  running 'C:\Users\danca\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\danca\AppData\Local\Temp\metals7733521071172467046\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+Oct 15, 2021 2:38:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+[0m2021.10.15 14:38:19 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2021.10.15 14:38:19 INFO  [info] loading settings for project proj0-build-build from metals.sbt ...[0m
+[0m2021.10.15 14:38:21 INFO  [info] loading project definition from C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\project\project[0m
+[0m2021.10.15 14:38:21 INFO  [info] loading settings for project proj0-build from metals.sbt ...[0m
+[0m2021.10.15 14:38:22 INFO  [info] loading project definition from C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\project[0m
+Oct 15, 2021 2:38:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 112
+[0m2021.10.15 14:38:25 INFO  [success] Generated .bloop\proj0-build.json[0m
+[0m2021.10.15 14:38:25 INFO  [success] Total time: 3 s, completed Oct 15, 2021, 2:38:25 PM[0m
+Oct 15, 2021 2:38:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+[0m2021.10.15 14:38:27 INFO  [info] loading settings for project proj0 from build.sbt ...[0m
+[0m2021.10.15 14:38:27 INFO  [info] set current project to hello-world (in build file:/C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/)[0m
+Oct 15, 2021 2:38:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+[0m2021.10.15 14:38:50 INFO  [success] Generated .bloop\proj0-test.json[0m
+[0m2021.10.15 14:38:50 INFO  [success] Generated .bloop\proj0.json[0m
+[0m2021.10.15 14:38:50 INFO  [success] Total time: 23 s, completed Oct 15, 2021, 2:38:50 PM[0m
+[0m2021.10.15 14:38:50 INFO  time: ran 'sbt bloopInstall' in 49s[0m
+[0m2021.10.15 14:38:50 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.15 14:38:50 INFO  Shut down connection with build server.[0m
+[0m2021.10.15 14:38:50 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.15 14:38:50 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13000'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0.json'
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'proj0-test', 'proj0'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13000...
+The server is listening for incoming connections at tcp://127.0.0.1:13000...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 14:38:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 14:38:51 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22203'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22203...
+The server is listening for incoming connections at tcp://127.0.0.1:22203...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 14:38:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 14:38:51 INFO  time: Connected to build server in 0.9s[0m
+[0m2021.10.15 14:38:51 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.15 14:38:53 INFO  time: indexed workspace in 1.99s[0m
+[0m2021.10.15 14:38:54 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.15 14:38:55 INFO  time: code lens generation in 1.33s[0m
+[0m2021.10.15 14:39:04 INFO  compiling proj0 (1 scala source)[0m
+Oct 15, 2021 2:39:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 135
+[0m2021.10.15 14:39:04 INFO  time: compiled proj0 in 0.76s[0m
+[0m2021.10.15 14:39:46 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 14:39:46 INFO  time: compiled proj0 in 0.52s[0m
+Oct 15, 2021 2:40:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 258
+[0m2021.10.15 14:41:26 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 14:41:26 INFO  time: compiled proj0 in 0.6s[0m
+[0m2021.10.15 14:42:01 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 14:42:01 INFO  time: compiled proj0 in 0.58s[0m
+Oct 15, 2021 3:06:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 397
+[0m2021.10.15 15:06:23 INFO  running 'C:\Users\danca\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\danca\AppData\Local\Temp\metals11193932213131018994\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.15 15:06:42 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2021.10.15 15:06:42 INFO  [info] loading settings for project proj0-build-build from metals.sbt ...[0m
+[0m2021.10.15 15:06:44 INFO  [info] loading project definition from C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\project\project[0m
+[0m2021.10.15 15:06:45 INFO  [info] loading settings for project proj0-build from metals.sbt ...[0m
+[0m2021.10.15 15:06:45 INFO  [info] loading project definition from C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\project[0m
+[0m2021.10.15 15:06:49 INFO  [success] Generated .bloop\proj0-build.json[0m
+[0m2021.10.15 15:06:49 INFO  [success] Total time: 3 s, completed Oct 15, 2021, 3:06:49 PM[0m
+[0m2021.10.15 15:06:51 INFO  [info] loading settings for project proj0 from build.sbt ...[0m
+[0m2021.10.15 15:06:51 INFO  [info] set current project to hello-world (in build file:/C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/)[0m
+[0m2021.10.15 15:07:17 INFO  [success] Generated .bloop\proj0-test.json[0m
+[0m2021.10.15 15:07:17 INFO  [success] Generated .bloop\proj0.json[0m
+[0m2021.10.15 15:07:17 INFO  [success] Total time: 26 s, completed Oct 15, 2021, 3:07:17 PM[0m
+[0m2021.10.15 15:07:18 INFO  time: ran 'sbt bloopInstall' in 55s[0m
+[0m2021.10.15 15:07:18 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.15 15:07:18 INFO  Shut down connection with build server.[0m
+[0m2021.10.15 15:07:18 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.15 15:07:18 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40691'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0.json'
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'proj0', 'proj0-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40691...
+The server is listening for incoming connections at tcp://127.0.0.1:40691...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 15:07:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 15:07:18 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21782'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21782...
+The server is listening for incoming connections at tcp://127.0.0.1:21782...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 15:07:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 15:07:18 INFO  time: Connected to build server in 0.69s[0m
+[0m2021.10.15 15:07:18 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.15 15:07:20 INFO  time: indexed workspace in 1.92s[0m
+[0m2021.10.15 15:07:22 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.15 15:07:22 INFO  time: code lens generation in 1.5s[0m
+[0m2021.10.15 16:38:01 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:38:01 INFO  time: compiled proj0 in 0.53s[0m
+Oct 15, 2021 4:40:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 459
+Oct 15, 2021 4:40:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 466
+[0m2021.10.15 16:41:09 INFO  running 'C:\Users\danca\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\danca\AppData\Local\Temp\metals17643401407354061204\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.15 16:41:26 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2021.10.15 16:41:26 INFO  [info] loading settings for project proj0-build-build from metals.sbt ...[0m
+[0m2021.10.15 16:41:27 INFO  [info] loading project definition from C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\project\project[0m
+[0m2021.10.15 16:41:27 INFO  [info] loading settings for project proj0-build from metals.sbt ...[0m
+[0m2021.10.15 16:41:28 INFO  [info] loading project definition from C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\project[0m
+[0m2021.10.15 16:41:29 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:41:29 INFO  time: compiled proj0 in 0.35s[0m
+[0m2021.10.15 16:41:31 INFO  [success] Generated .bloop\proj0-build.json[0m
+[0m2021.10.15 16:41:31 INFO  [success] Total time: 3 s, completed Oct 15, 2021, 4:41:32 PM[0m
+[0m2021.10.15 16:41:34 INFO  [info] loading settings for project proj0 from build.sbt ...[0m
+[0m2021.10.15 16:41:34 INFO  [info] set current project to hello-world (in build file:/C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/)[0m
+Oct 15, 2021 4:41:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 508
+Oct 15, 2021 4:41:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 514
+[0m2021.10.15 16:41:57 INFO  [success] Generated .bloop\proj0-test.json[0m
+[0m2021.10.15 16:41:57 INFO  [success] Generated .bloop\proj0.json[0m
+[0m2021.10.15 16:41:57 INFO  [success] Total time: 23 s, completed Oct 15, 2021, 4:41:57 PM[0m
+[0m2021.10.15 16:41:57 INFO  time: ran 'sbt bloopInstall' in 47s[0m
+[0m2021.10.15 16:41:57 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.15 16:41:57 INFO  Shut down connection with build server.[0m
+[0m2021.10.15 16:41:57 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.15 16:41:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31013'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0.json'
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'proj0-test', 'proj0'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31013...
+The server is listening for incoming connections at tcp://127.0.0.1:31013...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 16:41:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 16:41:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 27841'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:27841...
+The server is listening for incoming connections at tcp://127.0.0.1:27841...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 16:41:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 16:41:57 INFO  time: Connected to build server in 0.56s[0m
+[0m2021.10.15 16:41:57 INFO  Connected to Build server: Bloop v1.4.9[0m
+Oct 15, 2021 4:41:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 530
+[0m2021.10.15 16:41:59 INFO  time: indexed workspace in 1.59s[0m
+[0m2021.10.15 16:41:59 INFO  compiling proj0 (1 scala source)[0m
+Oct 15, 2021 4:41:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 536
+[0m2021.10.15 16:42:00 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+Exception in thread "pool-14-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[0m2021.10.15 16:42:00 INFO  time: compiled proj0 in 1.37s[0m
+[0m2021.10.15 16:42:36 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:42:36 INFO  time: compiled proj0 in 0.23s[0m
+[0m2021.10.15 16:43:18 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:43:18 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.15 16:43:18 INFO  time: compiled proj0 in 0.93s[0m
+Oct 15, 2021 4:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 618
+Oct 15, 2021 4:43:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 624
+[0m2021.10.15 16:43:45 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:43:45 INFO  time: compiled proj0 in 0.49s[0m
+Oct 15, 2021 4:43:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 702
+[0m2021.10.15 16:44:04 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:44:04 INFO  time: compiled proj0 in 91ms[0m
+Oct 15, 2021 4:44:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 785
+[0m2021.10.15 16:44:16 INFO  compiling proj0 (2 scala sources)[0m
+[0m2021.10.15 16:44:16 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.15 16:44:16 INFO  time: compiled proj0 in 0.79s[0m
+Oct 15, 2021 4:44:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 832
+[0m2021.10.15 16:45:03 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:45:03 INFO  time: compiled proj0 in 0.48s[0m
+[0m2021.10.15 16:46:07 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:46:07 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.15 16:46:07 INFO  time: compiled proj0 in 0.49s[0m
+[0m2021.10.15 16:47:39 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:47:39 INFO  time: compiled proj0 in 0.12s[0m
+[0m2021.10.15 16:47:53 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:47:53 INFO  time: compiled proj0 in 92ms[0m
+[0m2021.10.15 16:48:17 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.15 16:48:17 INFO  time: compiled proj0 in 0.11s[0m
+[0m2021.10.17 16:28:40 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.17 16:28:41 INFO  time: initialize in 1.22s[0m
+[0m2021.10.17 16:28:46 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.17 16:28:46 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.17 16:28:47 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34546'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.17 16:28:50 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Waiting for the bsp connection to come up...
+[0m2021.10.17 16:28:52 INFO  time: code lens generation in 5.24s[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'proj0', 'proj0-test'
+[0m[32m[D][0m Missing analysis file for project 'proj0-test'
+[0m[32m[D][0m Loading previous analysis for 'proj0' from 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34546...
+The server is listening for incoming connections at tcp://127.0.0.1:34546...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 16:28:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 16:28:53 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13688'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13688...
+The server is listening for incoming connections at tcp://127.0.0.1:13688...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 16:28:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.17 16:28:54 INFO  time: Connected to build server in 7.35s[0m
+[0m2021.10.17 16:28:54 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.17 16:28:57 INFO  time: indexed workspace in 2.68s[0m
+[0m2021.10.17 16:28:57 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.17 16:28:58 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.17 16:29:00 INFO  time: compiled proj0 in 3.05s[0m
+[0m2021.10.17 16:29:20 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.17 16:29:20 INFO  time: compiled proj0 in 0.27s[0m
+[0m2021.10.17 16:29:46 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.17 16:29:46 INFO  time: compiled proj0 in 0.19s[0m
+[0m2021.10.18 10:54:55 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.18 10:54:57 INFO  time: initialize in 1.24s[0m
+[0m2021.10.18 10:55:01 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.18 10:55:01 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.18 10:55:01 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 38874'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.18 10:55:05 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Waiting for the bsp connection to come up...
+[0m2021.10.18 10:55:07 INFO  time: code lens generation in 4.87s[0m
+[0m2021.10.18 10:55:07 INFO  time: code lens generation in 4.88s[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0.json'
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'proj0-test', 'proj0'
+[0m[32m[D][0m Missing analysis file for project 'proj0-test'
+[0m[32m[D][0m Loading previous analysis for 'proj0' from 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:38874...
+The server is listening for incoming connections at tcp://127.0.0.1:38874...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 10:55:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 10:55:08 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37688'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37688...
+The server is listening for incoming connections at tcp://127.0.0.1:37688...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 10:55:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 10:55:08 INFO  time: Connected to build server in 7s[0m
+[0m2021.10.18 10:55:08 INFO  Connected to Build server: Bloop v1.4.9[0m
+Oct 18, 2021 10:55:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+[0m2021.10.18 10:55:11 INFO  time: indexed workspace in 2.91s[0m
+[0m2021.10.18 10:55:12 INFO  Deduplicating compilation of proj0 from bsp client 'Metals 0.10.7' (since 3.842s)[0m
+[0m2021.10.18 10:55:12 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 10:55:12 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 10:55:13 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.18 10:55:14 INFO  time: compiled proj0 in 2.22s[0m
+[0m2021.10.18 10:55:49 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 10:55:49 INFO  time: compiled proj0 in 0.24s[0m
+[0m2021.10.18 10:56:00 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 10:56:00 INFO  time: compiled proj0 in 0.19s[0m
+[0m2021.10.18 10:57:03 INFO  C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala:30:3: stale bloop error: object insertMany is not a member of package collection
+  collection.insertMany(documents).printResults()
+  ^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.18 10:57:03 INFO  C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala:30:3: stale bloop error: object insertMany is not a member of package collection
+  collection.insertMany(documents).printResults()
+  ^^^^^^^^^^^^^^^^^^^^^[0m
+Oct 18, 2021 11:00:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 230
+[0m2021.10.18 11:00:46 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 11:00:47 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.18 11:00:47 INFO  time: compiled proj0 in 1.65s[0m
+[0m2021.10.18 11:01:02 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 11:01:02 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.18 11:01:02 INFO  time: compiled proj0 in 0.77s[0m
+[0m2021.10.18 13:10:58 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:10:58 INFO  time: compiled proj0 in 0.78s[0m
+[0m2021.10.18 13:11:28 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:11:28 INFO  time: compiled proj0 in 0.8s[0m
+[0m2021.10.18 13:12:45 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:12:45 INFO  time: compiled proj0 in 0.61s[0m
+[0m2021.10.18 13:14:10 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:14:10 INFO  time: compiled proj0 in 0.6s[0m
+[0m2021.10.18 13:15:48 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:15:48 INFO  time: compiled proj0 in 0.64s[0m
+Oct 18, 2021 1:20:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 56 is not a valid line number, allowed [0..52]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 18, 2021 1:20:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 55 is not a valid line number, allowed [0..52]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 18, 2021 1:20:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 54 is not a valid line number, allowed [0..52]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+Oct 18, 2021 1:20:20 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 18, 2021 1:20:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Oct 18, 2021 1:20:40 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 18, 2021 1:20:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+Oct 18, 2021 1:31:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1781
+Oct 18, 2021 1:31:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1813
+Oct 18, 2021 1:40:48 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1174, count -1, length 1914
+[0m2021.10.18 13:54:15 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:54:15 INFO  time: compiled proj0 in 0.15s[0m
+[0m2021.10.18 13:54:25 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:54:25 INFO  time: compiled proj0 in 0.1s[0m
+[0m2021.10.18 13:55:04 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:55:04 INFO  time: compiled proj0 in 0.1s[0m
+[0m2021.10.18 13:55:06 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:55:06 INFO  time: compiled proj0 in 96ms[0m
+[0m2021.10.18 13:55:16 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:55:16 INFO  time: compiled proj0 in 94ms[0m
+[0m2021.10.18 13:55:52 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:55:52 WARN  5 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.18 13:55:52 INFO  time: compiled proj0 in 0.66s[0m
+[0m2021.10.18 13:58:48 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 13:58:48 WARN  5 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.18 13:58:48 INFO  time: compiled proj0 in 0.65s[0m
+[0m2021.10.18 14:00:28 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 14:00:28 INFO  time: compiled proj0 in 0.11s[0m
+something's wrong: no file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala, 723, 723, 748)
+[0m2021.10.18 14:00:43 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 14:00:43 INFO  time: compiled proj0 in 0.1s[0m
+[0m2021.10.18 14:00:56 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 14:00:56 INFO  time: compiled proj0 in 50ms[0m
+[0m2021.10.18 14:01:09 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 14:01:09 INFO  time: compiled proj0 in 0.1s[0m
+[0m2021.10.18 14:01:30 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 14:01:30 INFO  time: compiled proj0 in 0.11s[0m
+[0m2021.10.18 14:07:28 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 14:07:28 INFO  time: compiled proj0 in 50ms[0m
+[0m2021.10.18 14:08:07 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 14:08:07 INFO  time: compiled proj0 in 0.14s[0m
+[0m2021.10.18 14:08:45 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 14:08:45 INFO  time: compiled proj0 in 97ms[0m
+[0m2021.10.18 14:08:51 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.18 14:08:51 WARN  5 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.18 14:08:51 INFO  time: compiled proj0 in 0.61s[0m
+something's wrong: no file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala, 1836, 1836, 1861)
+[0m2021.10.19 11:48:34 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.19 11:48:35 INFO  time: initialize in 1.14s[0m
+[0m2021.10.19 11:48:40 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.19 11:48:40 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 11:48:40 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21461'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.19 11:48:43 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Waiting for the bsp connection to come up...
+Oct 19, 2021 11:48:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Oct 19, 2021 11:48:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+[0m2021.10.19 11:48:45 INFO  time: code lens generation in 4.75s[0m
+[0m2021.10.19 11:48:45 INFO  time: code lens generation in 4.75s[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0.json'
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'proj0-test', 'proj0'
+[0m[32m[D][0m Missing analysis file for project 'proj0-test'
+[0m[32m[D][0m Loading previous analysis for 'proj0' from 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21461...
+The server is listening for incoming connections at tcp://127.0.0.1:21461...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 11:48:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 11:48:48 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16740'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16740...
+The server is listening for incoming connections at tcp://127.0.0.1:16740...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 11:48:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 11:48:49 INFO  time: Connected to build server in 8.76s[0m
+[0m2021.10.19 11:48:49 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.19 11:48:51 INFO  time: indexed workspace in 2.56s[0m
+[0m2021.10.19 11:48:53 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.19 11:49:46 INFO  shutting down Metals[0m
+[0m2021.10.19 11:49:46 INFO  Shut down connection with build server.[0m
+[0mNo more data in the client stdin, exiting...
+2021.10.19 11:49:46 INFO  Shut down connection with build server.No more data in the server stdin, exiting...[0m
+
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.19 11:54:08 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.19 11:54:09 INFO  time: initialize in 1.08s[0m
+[0m2021.10.19 11:54:09 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.19 11:54:09 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 11:54:09 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19271'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19271...
+The server is listening for incoming connections at tcp://127.0.0.1:19271...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 11:54:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 11:54:10 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40137'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40137...
+The server is listening for incoming connections at tcp://127.0.0.1:40137...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 11:54:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 11:54:11 INFO  time: Connected to build server in 1.18s[0m
+[0m2021.10.19 11:54:11 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.19 11:54:12 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 11:54:17 INFO  time: indexed workspace in 4.76s[0m
+[0m2021.10.19 11:54:18 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+Oct 19, 2021 11:54:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1634662457431,
+    "message": "Compiled \u0027proj0\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/?id\u003dproj0"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/.bloop/proj0/bloop-bsp-clients-classes/classes-Metals-qKECRHChTLK1DmP4aKX9UA\u003d\u003d/",
+      "analysisOut": "file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:233)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:231)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:231)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:230)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:230)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10(MetalsLanguageServer.scala:404)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$10$adapted(MetalsLanguageServer.scala:402)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:168)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:165)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:164)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:164)
+	... 16 more
+
+Oct 19, 2021 1:02:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Oct 19, 2021 1:02:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+something's wrong: no file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala, 2363, 2363, 2388)
+[0m2021.10.19 14:44:10 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 14:44:13 WARN  5 deprecations (since 2.13.0)[0m
+[0m2021.10.19 14:44:13 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.19 14:44:13 WARN  6 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 14:44:13 INFO  time: compiled proj0 in 3.38s[0m
+Oct 19, 2021 3:02:21 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 19, 2021 3:02:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+[0m2021.10.19 15:09:13 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:09:13 INFO  time: compiled proj0 in 0.45s[0m
+[0m2021.10.19 15:09:15 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:09:15 INFO  time: compiled proj0 in 0.38s[0m
+[0m2021.10.19 15:09:21 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:09:21 INFO  time: compiled proj0 in 0.25s[0m
+[0m2021.10.19 15:09:31 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:09:31 INFO  time: compiled proj0 in 0.29s[0m
+[0m2021.10.19 15:09:45 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:09:45 INFO  time: compiled proj0 in 0.25s[0m
+[0m2021.10.19 15:09:57 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:09:57 INFO  time: compiled proj0 in 0.21s[0m
+[0m2021.10.19 15:11:54 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:11:54 INFO  time: compiled proj0 in 0.2s[0m
+[0m2021.10.19 15:12:38 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:12:38 INFO  time: compiled proj0 in 0.21s[0m
+[0m2021.10.19 15:13:00 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:13:00 INFO  time: compiled proj0 in 0.17s[0m
+[0m2021.10.19 15:14:21 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:14:21 INFO  time: compiled proj0 in 0.16s[0m
+[0m2021.10.19 15:14:34 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:14:34 INFO  time: compiled proj0 in 64ms[0m
+[0m2021.10.19 15:14:49 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:14:49 INFO  time: compiled proj0 in 0.18s[0m
+[0m2021.10.19 15:15:33 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:15:33 INFO  time: compiled proj0 in 0.17s[0m
+[0m2021.10.19 15:15:41 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:15:41 INFO  time: compiled proj0 in 0.16s[0m
+something's wrong: no file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala, 721, 721, 746)
+[0m2021.10.19 15:16:51 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:16:51 INFO  time: compiled proj0 in 0.15s[0m
+[0m2021.10.19 15:16:59 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:16:59 INFO  time: compiled proj0 in 0.16s[0m
+[0m2021.10.19 15:18:24 INFO  C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala:76:26: stale bloop error: overloaded method apply with alternatives:
+  (elems: org.mongodb.scala.bson.BsonMagnets.CanBeBsonElement*)org.mongodb.scala.bson.collection.immutable.Document <and>
+  (xs: (String, org.mongodb.scala.bson.BsonValue)*)org.mongodb.scala.bson.collection.immutable.Document
+ cannot be applied to ((String, String), (String, Int), (String, Array[String]), (String, Int))
+    var doc : Document = Document (
+                         ^^^^^^^^[0m
+[0m2021.10.19 15:18:24 INFO  C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala:76:26: stale bloop error: overloaded method apply with alternatives:
+  (elems: org.mongodb.scala.bson.BsonMagnets.CanBeBsonElement*)org.mongodb.scala.bson.collection.immutable.Document <and>
+  (xs: (String, org.mongodb.scala.bson.BsonValue)*)org.mongodb.scala.bson.collection.immutable.Document
+ cannot be applied to ((String, String), (String, Int), (String, Array[String]), (String, Int))
+    var doc : Document = Document (
+                         ^^^^^^^^[0m
+[0m2021.10.19 15:18:26 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:18:26 INFO  time: compiled proj0 in 0.15s[0m
+[0m2021.10.19 15:18:59 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:18:59 INFO  time: compiled proj0 in 0.14s[0m
+[0m2021.10.19 15:19:16 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:19:16 INFO  time: compiled proj0 in 0.14s[0m
+[0m2021.10.19 15:19:27 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:19:27 INFO  time: compiled proj0 in 0.14s[0m
+something's wrong: no file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala, 2919, 2919, 2944)
+[0m2021.10.19 15:19:31 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:19:31 INFO  time: compiled proj0 in 0.13s[0m
+[0m2021.10.19 15:19:37 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:19:37 INFO  time: compiled proj0 in 0.15s[0m
+[0m2021.10.19 15:20:49 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:20:49 INFO  time: compiled proj0 in 50ms[0m
+[0m2021.10.19 15:20:55 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:20:55 INFO  time: compiled proj0 in 0.16s[0m
+[0m2021.10.19 15:21:43 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:21:44 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.10.19 15:21:44 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.19 15:21:44 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 15:21:44 INFO  time: compiled proj0 in 1.08s[0m
+[0m2021.10.19 15:22:07 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:22:07 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.10.19 15:22:07 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.19 15:22:07 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 15:22:07 INFO  time: compiled proj0 in 0.8s[0m
+something's wrong: no file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala, 3035, 3035, 3060)
+something's wrong: no file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala, 3585, 3585, 3610)
+[0m2021.10.19 15:36:48 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:36:48 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.10.19 15:36:48 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.19 15:36:48 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 15:36:48 INFO  time: compiled proj0 in 0.87s[0m
+[0m2021.10.19 15:40:09 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:40:09 WARN  5 deprecations (since 2.13.0)[0m
+[0m2021.10.19 15:40:09 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.19 15:40:09 WARN  6 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 15:40:10 INFO  time: compiled proj0 in 1.01s[0m
+[0m2021.10.19 15:50:07 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.19 15:50:07 WARN  5 deprecations (since 2.13.0)[0m
+[0m2021.10.19 15:50:07 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.19 15:50:07 WARN  6 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 15:50:07 INFO  time: compiled proj0 in 0.81s[0m
+[0m2021.10.19 16:11:22 INFO  shutting down Metals[0m
+[0m2021.10.19 16:11:22 INFO  Shut down connection with build server.[0m
+[0m2021.10.19 16:11:22 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.19 16:15:11 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.19 16:15:12 INFO  time: initialize in 1.18s[0m
+[0m2021.10.19 16:15:13 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.19 16:15:13 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 16:15:13 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44068'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44068...
+The server is listening for incoming connections at tcp://127.0.0.1:44068...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 16:15:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 16:15:14 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 15145'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:15145...
+The server is listening for incoming connections at tcp://127.0.0.1:15145...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 16:15:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 16:15:15 INFO  time: Connected to build server in 1.8s[0m
+[0m2021.10.19 16:15:15 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.19 16:15:16 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 16:15:18 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 16:15:20 INFO  time: code lens generation in 5.87s[0m
+something's wrong: no file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/danca/OneDrive/Documents/Revature/Project0/proj0/src/main/scala/Main.scala, 2998, 2998, 3023)
+[0m2021.10.19 16:16:40 INFO  time: indexed workspace in 1m23s[0m
+[0m2021.10.19 16:16:42 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.19 21:55:12 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.19 21:55:14 INFO  time: initialize in 1.5s[0m
+[0m2021.10.19 21:55:19 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.19 21:55:18 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 21:55:19 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 15427'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.19 21:55:23 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.19 21:55:25 INFO  time: code lens generation in 5.95s[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+error: Giving up on waiting for a connection, printing embedded bloop logs:
+> No server running at 127.0.0.1:8212, let's fire one...
+> Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+error: The launcher failed to establish a bsp connection, aborting...
+[0m2021.10.19 21:56:04 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:159)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.10.19 21:58:51 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+Oct 19, 2021 10:01:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 212
+Oct 19, 2021 10:02:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 260
+[0m2021.10.19 22:07:10 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 22:08:05 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 22:08:29 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 22:10:21 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 22:11:04 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 22:13:16 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 22:15:12 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+Oct 19, 2021 10:56:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1595
+[0m2021.10.19 23:00:11 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:13:46 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Helpers.scala[0m
+Oct 19, 2021 11:13:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2239
+[0m2021.10.19 23:14:00 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:15:09 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:16:31 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:17:26 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:18:45 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:19:32 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+Oct 19, 2021 11:23:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2448
+[0m2021.10.19 23:28:44 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\build.sbt[0m
+Oct 19, 2021 11:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2453
+Oct 19, 2021 11:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2461
+Oct 19, 2021 11:29:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2470
+[0m2021.10.19 23:34:40 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:36:41 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:38:14 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:39:00 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:40:35 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:41:07 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:41:32 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:43:00 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:44:14 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:44:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:46:28 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:47:51 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:48:31 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:49:34 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:53:59 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.19 23:58:08 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:02:19 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:42 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:43 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:43 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:43 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:43 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 00:04:47 INFO  shutting down Metals[0m
+[0m2021.10.20 08:57:31 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.20 08:57:33 INFO  time: initialize in 2.61s[0m
+[0m2021.10.20 08:57:34 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.20 08:57:34 WARN  no build target for: C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\src\main\scala\Main.scala[0m
+[0m2021.10.20 08:57:33 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 11752'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.20 08:57:42 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\.bloop\proj0.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\danca\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'proj0-test', 'proj0'
+[0m[32m[D][0m Missing analysis file for project 'proj0-test'
+[0m[32m[D][0m Loading previous analysis for 'proj0' from 'C:\Users\danca\OneDrive\Documents\Revature\Project0\proj0\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:11752...
+The server is listening for incoming connections at tcp://127.0.0.1:11752...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.20 08:57:44 INFO  time: code lens generation in 8.48s[0m
+[0m2021.10.20 08:57:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.20 08:57:45 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35667'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35667...
+The server is listening for incoming connections at tcp://127.0.0.1:35667...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.20 08:57:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\danca\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.20 08:57:46 INFO  time: Connected to build server in 12s[0m
+[0m2021.10.20 08:57:46 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.20 08:57:46 INFO  time: Imported build in 0.11s[0m
+[0m2021.10.20 08:57:50 INFO  time: indexed workspace in 3.85s[0m
+[0m2021.10.20 08:57:51 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.20 08:57:52 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.20 08:57:57 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.20 08:57:57 INFO  time: compiled proj0 in 5.94s[0m
+[0m2021.10.20 08:58:29 INFO  compiling proj0 (1 scala source)[0m
+[0m2021.10.20 08:58:30 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.20 08:58:30 INFO  time: compiled proj0 in 1.3s[0m
