@@ -68,6 +68,7 @@ object Main extends App {
       "\n 2.) Prep time" +
       "\n 3.) Rating")
     var toUpdate : Int = scala.io.StdIn.readInt()
+    println("What is the new value?")
     toUpdate match {
       case 1 => {
         var newName : String = scala.io.StdIn.readLine()
